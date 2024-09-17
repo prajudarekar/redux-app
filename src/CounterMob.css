@@ -1,0 +1,33 @@
+/* Responsive Styles for Mobile Devices */
+@media (max-width: 768px) {
+
+    .header{
+        width: 100vw;
+        display: flex;
+    }
+     .section-footer{
+    width: 100%;  
+    padding: 20px 10px;
+    text-align: center;
+    }
+    
+.counter-container{
+  width: 300px;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin: 20% auto;
+  gap:30px;
+  display: flex;
+  flex-direction: column;
+}
+.counter-container button{
+  border: none;
+  padding: 10px;
+  color:#000;
+  font-size: 22px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid rgba(128, 128, 128, 0.548);
+}
+  }
